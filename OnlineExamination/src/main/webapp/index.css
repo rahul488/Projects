@@ -1,0 +1,45 @@
+
+body{
+	background-position: center;
+	background-repeat: no-repeat;
+	background: url("D2.jpg");
+	background-size:all;
+	font-family: sans-serif;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.login-box{
+	width: 300px;
+	height: 300px;
+	margin:280px 750px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 25px 25px;
+}
+.login-box input{
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.login-box input[type="button"] {
+	
+	border: none;
+	outline: none;
+	height:35px;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 20px;
+	background: #8080c0;
+}
+.login-box input[type="button"]:hover{
+	cursor: pointer;
+	background: #39dc79;
+	color: #000;
+}
+marquee p{
+	font-size: 40px;
+	color: blue;
+}

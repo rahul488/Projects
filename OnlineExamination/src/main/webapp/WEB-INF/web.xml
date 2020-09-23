@@ -1,0 +1,58 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddQuestion</servlet-name>
+  	<display-name>AddQuestion</display-name>
+  	<description></description>
+  	<servlet-class>com.org.controller.AddQuestion</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Studentsignin</servlet-name>
+  	<display-name>Studentsignin</display-name>
+  	<description></description>
+  	<servlet-class>com.org.controller.Studentsignin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>StudentSignup</servlet-name>
+  	<display-name>StudentSignup</display-name>
+  	<description></description>
+  	<servlet-class>com.org.controller.StudentSignup</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Answer</servlet-name>
+  	<display-name>Answer</display-name>
+  	<description></description>
+  	<servlet-class>com.org.controller.Answer</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ForgotPassword</servlet-name>
+  	<display-name>ForgotPassword</display-name>
+  	<description></description>
+  	<servlet-class>com.org.controller.ForgotPassword</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddQuestion</servlet-name>
+  	<url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Studentsignin</servlet-name>
+  	<url-pattern>/signin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>StudentSignup</servlet-name>
+  	<url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Answer</servlet-name>
+  	<url-pattern>/ans</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ForgotPassword</servlet-name>
+  	<url-pattern>/Forgot</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

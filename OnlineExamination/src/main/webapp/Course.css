@@ -1,0 +1,42 @@
+
+		body{
+		background-position: center;
+		background-repeat: no-repeat;
+		background: url("D5.jpg");
+		background-size:all;
+		font-family: sans-serif;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+		overflow: hidden;
+		}
+		h1{
+			text-align: center;
+		}
+		.login-box{
+		width: 550px;
+		height: 200px;
+		margin:320px 750px;
+		background-color: blue;
+		color: #fff;
+		transform: translate(-50%,-50%);
+		box-sizing: border-box;
+		padding: 25px 25px;
+	}
+	.login-box input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	margin-left: 230px;
+	border-radius: 20px;
+	color: balck;
+	font-size: 18px;
+	text-align: center;
+}
+	.login-box input[type="submit"]{
+		color: black;
+	}
+
+	.login-box input[type="submit"]:hover{
+		cruser: pointer;
+		background-color: blue;
+	}
